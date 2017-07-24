@@ -40,13 +40,13 @@ export class ProductsTable extends React.Component {
             table = (<div>Cart is Empty.<p><Link to='productList'>Explore Some items here.</Link></p></div> );
         }
         else {
-            table = (<table>
+            table = (<table className="table table-striped">
                     <thead>
                         <tr>
-                            <th>Code</th>
-                            <th>Name</th>
-                            <th>Price</th>
-                            <th>Add to Cart</th>
+                            <th className="text-center">Code</th>
+                            <th className="text-left">Name</th>
+                            <th className="text-right">Price</th>
+                            <th className="text-center"></th>
                         </tr>
                     </thead>
                     <tbody>
